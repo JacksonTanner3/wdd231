@@ -1,0 +1,52 @@
+/* For larger screens */
+@media (min-width: 32.5rem) {
+
+    header {
+        justify-content: space-between;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    nav ul {
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    nav a {
+        padding: 0.75rem 1.5rem;
+    }
+
+    nav ul.hidden {
+        display: flex;
+    }
+
+    /* Main grid layout for larger screens */
+    main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    h1 {
+        grid-column: 1 / -1;
+    }
+
+    .course-section {
+        grid-column: 1 / -1;
+    }
+
+    footer {
+        grid-column: 1 / -1;
+    }
+
+    #course-list {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .about-me-section,
+    .final-project-section {
+        grid-column: span 1;
+    }
+}

@@ -1,0 +1,222 @@
+/* For small screens */
+:root {
+    --primary-color: #307a2b;
+    --secondary-color: #dbe2ef;
+    --accent-color: #f9f7f4;
+    --text-color: #0d310b;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    --border-radius: 8px;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    line-height: 1.6;
+}
+
+/* Layout and Structure */
+#content {
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+header,
+nav,
+main,
+footer {
+    background-color: var(--accent-color);
+    border-radius: var(--border-radius);
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+    padding: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Header and Nav */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 2rem;
+}
+
+.logo-and-name {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.logo-and-name h2 {
+    margin: 0;
+    border-bottom: none;
+    font-size: 1.5rem;
+}
+
+.hamburger {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: var(--primary-color);
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 0.75rem;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: background-color 0.3s ease;
+    border-radius: var(--border-radius);
+    font-weight: 600;
+}
+
+nav a:hover {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+nav .active a {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+}
+
+/* Hamburger menu functionality */
+.hidden {
+    display: none;
+}
+
+.open {
+    display: flex;
+}
+
+/* Main content sections */
+main {
+    padding: 1rem 2rem;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+/* Course Cards */
+#course-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+#course-filters button {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform 0.2s ease;
+}
+
+#course-filters button:hover {
+    transform: translateY(-2px);
+}
+
+#course-filters button.active {
+    background-color: #1a4f8b;
+}
+
+#course-total-credits {
+    text-align: right;
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--primary-color);
+}
+
+#course-list {
+    display: grid;
+    gap: 1.5rem;
+}
+
+.course-card {
+    background-color: var(--secondary-color);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+    transition: transform 0.3s ease;
+    text-align: left;
+}
+
+.course-card h3 {
+    margin-top: 0;
+}
+
+.course-card.completed {
+    background-color: #bccfda;
+    border: 2px solid var(--primary-color);
+    box-shadow: var(--shadow);
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer .social-links {
+    margin-bottom: 1rem;
+}
+
+footer .social-links a {
+    text-decoration: none;
+    font-size: 2rem;
+    margin: 0 0.5rem;
+    color: var(--primary-color);
+    transition: color 0.3s ease;
+}
+
+footer .social-links a:hover {
+    color: var(--text-color);
+}
+
+footer p {
+    margin: 0.5rem 0;
+}
