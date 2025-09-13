@@ -1,0 +1,60 @@
+{
+    "prophets": [
+        {
+            "name": "Jospeh Smith",
+            "addresses": "123 Holy Lane",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/joseph-smith?lang=eng",
+            "imageOrIconFileNames": "smith.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Gordon B Hinckley",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/gordon-b-hinckley?lang=eng",
+            "imageOrIconFileNames": "hinckley.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Brigham Young",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/content/trek/brigham-young-an-american-moses?lang=eng",
+            "imageOrIconFileNames": "young.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "John Taylor",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/john-taylor?lang=eng",
+            "imageOrIconFileNames": "taylor.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Wilford Woodruff",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/wilford-woodruff?lang=eng",
+            "imageOrIconFileNames": "woodruff.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "Lorenzo Snow",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/lorenzo-snow?lang=eng",
+            "imageOrIconFileNames": "snow.jpg",
+            "membershipLevel": "3"
+        },
+        {
+            "name": "David O. McKay",
+            "addresses": "2323 Spritual Highway",
+            "phoneNumbers": "777-7777",
+            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/david-o-mckay?lang=eng",
+            "imageOrIconFileNames": "mckay.jpg",
+            "membershipLevel": "3"
+        }
+    ]
+}
