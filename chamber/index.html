@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jackson Tanner">
+    <meta name="description" content="Chamber of commerce Home page assignment.">
+    <meta property="og:title" content="Boise City's Chamber of Commerce">
+    <meta property="og:description" content="Boise City's Chamber of Commerce home page to show you all about Boise.">
+    <meta property="og:image" content="images/placeholder.png">
+    <meta property="og:url" content="https://jacksontanner3.github.io/wdd231/">
+    <title>Chamber of Commerce Home Page | Jackson Tanner | Home</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="scripts/main.js" type="module"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Boise City's Chamber of Commerce</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Join</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <img class="hero-image" src="images/boise-hero.jpg" alt="Boise City landscape hero image">
+        <section class="card cta">
+            <h2>Join Our Chamber!</h2>
+            <p>Become a member today and unlock a world of opportunities for your business.</p>
+            <a href="#">Join Now</a>
+        </section>
+    </section>
+
+    <main>
+        <section class="card events">
+            <h2>Upcoming Events</h2>
+            <p>Check out our next event: **Annual Business Expo** on October 25th, 2025.</p>
+        </section>
+
+        <section class="card weather" id="weather-section">
+            <h2>Weather</h2>
+            <p>Loading weather...</p>
+        </section>
+
+        <section class="card spotlights" id="spotlight-section">
+            <h2>Business Spotlights</h2>
+            <div class="spotlight-grid">
+                <p>Loading spotlights...</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentyear"></span> Boise City's Chamber of Commerce | Jackson Tanner | Last Updated: <span
+                id="lastmodified"></span></p>
+    </footer>
+
+</body>
+
+</html>

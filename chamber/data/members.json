@@ -1,60 +1,44 @@
 {
-    "prophets": [
+    "members": [
         {
-            "name": "Jospeh Smith",
-            "addresses": "123 Holy Lane",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/joseph-smith?lang=eng",
-            "imageOrIconFileNames": "smith.jpg",
-            "membershipLevel": "3"
+            "name": "Micron Technology",
+            "address": "8000 S Federal Way, Boise, ID 83716",
+            "phone": "(208) 368-4000",
+            "website": "https://www.micron.com",
+            "logo": "images/micron-logo.jpg",
+            "membership": "Gold"
         },
         {
-            "name": "Gordon B Hinckley",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/gordon-b-hinckley?lang=eng",
-            "imageOrIconFileNames": "hinckley.jpg",
-            "membershipLevel": "3"
+            "name": "Albertsons Companies",
+            "address": "250 E Parkcenter Blvd, Boise, ID 83706",
+            "phone": "(208) 395-6200",
+            "website": "https://www.albertsons.com",
+            "logo": "images/albertsons-logo.jpg",
+            "membership": "Gold"
         },
         {
-            "name": "Brigham Young",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/content/trek/brigham-young-an-american-moses?lang=eng",
-            "imageOrIconFileNames": "young.jpg",
-            "membershipLevel": "3"
+            "name": "J.R. Simplot Company",
+            "address": "1099 W Front St, Boise, ID 83702",
+            "phone": "(208) 336-2110",
+            "website": "https://www.simplot.com",
+            "logo": "images/simplot-logo.jpg",
+            "membership": "Silver"
         },
         {
-            "name": "John Taylor",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/john-taylor?lang=eng",
-            "imageOrIconFileNames": "taylor.jpg",
-            "membershipLevel": "3"
+            "name": "Idaho Power",
+            "address": "1221 W Idaho St, Boise, ID 83702",
+            "phone": "(208) 388-2323",
+            "website": "https://www.idahopower.com",
+            "logo": "images/idahopower-logo.jpg",
+            "membership": "Silver"
         },
         {
-            "name": "Wilford Woodruff",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/wilford-woodruff?lang=eng",
-            "imageOrIconFileNames": "woodruff.jpg",
-            "membershipLevel": "3"
-        },
-        {
-            "name": "Lorenzo Snow",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/lorenzo-snow?lang=eng",
-            "imageOrIconFileNames": "snow.jpg",
-            "membershipLevel": "3"
-        },
-        {
-            "name": "David O. McKay",
-            "addresses": "2323 Spritual Highway",
-            "phoneNumbers": "777-7777",
-            "websiteURLs": "https://history.churchofjesuschrist.org/landing/prophets-of-the-restoration/david-o-mckay?lang=eng",
-            "imageOrIconFileNames": "mckay.jpg",
-            "membershipLevel": "3"
+            "name": "Boise Cascade",
+            "address": "1111 W Jefferson St, Boise, ID 83702",
+            "phone": "(208) 384-6161",
+            "website": "https://www.bc.com",
+            "logo": "images/boisecascade-logo.jpg",
+            "membership": "Gold"
         }
     ]
 }
