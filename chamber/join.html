@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Jackson Tanner">
+    <meta name="description" content="Chamber of commerce Join page assignment.">
+    <title>Join the Chamber - Boise Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1>Boise Chamber of Commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Membership Application</h1>
+        <form action="thankyou.html" method="get" id="joinForm">
+            <!-- First Name -->
+            <label for="fname">First Name*:
+                <input type="text" id="fname" name="fname" required autocomplete="given-name" title="Your First Name">
+            </label>
+
+            <!-- Last Name -->
+            <label for="lname">Last Name*:
+                <input type="text" id="lname" name="lname" required autocomplete="family-name" title="Your Last Name">
+            </label>
+
+            <!-- Title -->
+            <label for="title">Title:
+                <input type="text" id="title" name="title" pattern="[a-zA-Z\s\-]{7,}" autocomplete="organization-title"
+                    title="Your Title (min 7 letters, hyphens, spaces)">
+            </label>
+
+            <!-- Email -->
+            <label for="email">Email*:
+                <input type="email" id="email" name="email" required placeholder="example@gmail.com"
+                    autocomplete="email" title="Your Email Address">
+            </label>
+
+            <!-- Phone -->
+            <label for="phone">Phone*:
+                <input type="tel" id="phone" name="phone" required autocomplete="tel" title="Your Mobile Phone Number">
+            </label>
+
+            <!-- Organization -->
+            <label for="org">Organization*:
+                <input type="text" id="org" name="org" required autocomplete="organization" title="Organization Name">
+            </label>
+
+            <!-- Membership Level -->
+            <label for="level">Membership Level*:
+                <select id="level" name="level" required>
+                    <option value="" disabled selected>Select a level</option>
+                    <option value="NP">NP Membership</option>
+                    <option value="Bronze">Bronze Membership</option>
+                    <option value="Silver">Silver Membership</option>
+                    <option value="Gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <!-- Description -->
+            <label for="description">Organization Description:
+                <textarea id="description" name="description" title="Brief description of your organization"></textarea>
+            </label>
+
+            <input type="hidden" id="formLoadTimestamp" name="timestamp">
+
+            <button type="submit">Submit Application</button>
+        </form>
+
+        <!-- Membership Cards -->
+        <aside class="membership-cards">
+            <section class="card">
+                <h3>NP Membership</h3>
+                <p>For non-profit organizations. Basic listing and event access.</p>
+                <button type="button" class="modal-open" data-modal="np-modal">Learn More</button>
+            </section>
+            <section class="card">
+                <h3>Bronze Membership</h3>
+                <p>Includes training discounts and advertising opportunities.</p>
+                <button type="button" class="modal-open" data-modal="bronze-modal">Learn More</button>
+            </section>
+            <section class="card">
+                <h3>Silver Membership</h3>
+                <p>Enhanced benefits, including event discounts and homepage features.</p>
+                <button type="button" class="modal-open" data-modal="silver-modal">Learn More</button>
+            </section>
+            <section class="card">
+                <h3>Gold Membership</h3>
+                <p>Premier benefits with maximum visibility and event access.</p>
+                <button type="button" class="modal-open" data-modal="gold-modal">Learn More</button>
+            </section>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="currentYear"></span> City Chamber of Commerce</p>
+    </footer>
+
+    <!-- Modals -->
+    <dialog id="np-modal" class="modal">
+        <h2>NP Membership Benefits</h2>
+        <ul>
+            <li>Directory Listing</li>
+            <li>Access to newsletter</li>
+            <li>Member-only event invitations</li>
+        </ul>
+        <button type="button" class="modal-close">Close</button>
+    </dialog>
+
+    <dialog id="bronze-modal" class="modal">
+        <h2>Bronze Membership Benefits</h2>
+        <ul>
+            <li>All NP benefits</li>
+            <li>10% discount on workshops</li>
+            <li>Social media spotlight once per year</li>
+        </ul>
+        <button type="button" class="modal-close">Close</button>
+    </dialog>
+
+    <dialog id="silver-modal" class="modal">
+        <h2>Silver Membership Benefits</h2>
+        <ul>
+            <li>All Bronze benefits</li>
+            <li>25% discount on event booths</li>
+            <li>Featured homepage spot for one week</li>
+            <li>Job posting access</li>
+        </ul>
+        <button type="button" class="modal-close">Close</button>
+    </dialog>
+
+    <dialog id="gold-modal" class="modal">
+        <h2>Gold Membership Benefits</h2>
+        <ul>
+            <li>All Silver benefits</li>
+            <li>One free vendor booth per year</li>
+            <li>Permanent banner on a category page</li>
+            <li>Priority event sponsorship opportunities</li>
+        </ul>
+        <button type="button" class="modal-close">Close</button>
+    </dialog>
+
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
