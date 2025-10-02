@@ -365,6 +365,152 @@ main {
     color: var(--primary-color);
 }
 
+/* Visit Message Box */
+.visit-message {
+    margin-top: 2rem;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+    padding: 1rem;
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Discover Page Layout */
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+/* Small screens */
+@media (max-width: 640px) {
+    .discover-grid {
+        grid-template-areas:
+            "card1"
+            "card2"
+            "card3"
+            "card4"
+            "card5"
+            "card6"
+            "card7"
+            "card8";
+    }
+}
+
+/* Medium screens */
+@media (min-width: 641px) and (max-width: 1024px) {
+    .discover-grid {
+        grid-template-areas:
+            "card1 card2"
+            "card3 card4"
+            "card5 card6"
+            "card7 card8";
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .discover-grid {
+        grid-template-areas:
+            "card1 card2 card3"
+            "card4 card5 card6"
+            "card7 card8 .";
+    }
+
+    .discover-card img {
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    /* Hover effect only on larger screens */
+    .discover-card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+
+    }
+}
+
+
+/* Assign grid areas to cards */
+.discover-card:nth-child(1) {
+    grid-area: card1;
+}
+
+.discover-card:nth-child(2) {
+    grid-area: card2;
+}
+
+.discover-card:nth-child(3) {
+    grid-area: card3;
+}
+
+.discover-card:nth-child(4) {
+    grid-area: card4;
+}
+
+.discover-card:nth-child(5) {
+    grid-area: card5;
+}
+
+.discover-card:nth-child(6) {
+    grid-area: card6;
+}
+
+.discover-card:nth-child(7) {
+    grid-area: card7;
+}
+
+.discover-card:nth-child(8) {
+    grid-area: card8;
+}
+
+/* Card styling */
+.discover-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+.visit-message {
+    min-height: 50px;
+}
+
+.discover-grid {
+    display: grid;
+    gap: 1rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+    min-height: 800px;
+}
+
+
+.discover-card figure {
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    margin: 0;
+}
+
+.discover-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+@media (min-width: 1025px) {
+    .discover-card img:hover {
+        transform: scale(1.05);
+        filter: brightness(1.1);
+    }
+}
+
+
+
 /* Responsive */
 @media (min-width: 768px) {
     nav ul {

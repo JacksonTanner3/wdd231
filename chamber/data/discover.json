@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Boise River Greenbelt",
+        "address": "Boise, ID 83702",
+        "description": "A 25-mile tree-lined pathway following the Boise River, popular for biking, jogging, and wildlife viewing.",
+        "image": "images/greenbelt.jpg"
+    },
+    {
+        "name": "Boise State Capitol",
+        "address": "700 W Jefferson St, Boise, ID 83702",
+        "description": "Historic government building with guided tours, marble halls, and legislative chambers.",
+        "image": "images/capitol.jpg"
+    },
+    {
+        "name": "Idaho Old Penitentiary",
+        "address": "2445 Old Penitentiary Rd, Boise, ID 83712",
+        "description": "A historic prison offering tours through cell blocks, solitary confinement, and exhibits.",
+        "image": "images/penitentiary.jpg"
+    },
+    {
+        "name": "Boise Art Museum",
+        "address": "670 Julia Davis Dr, Boise, ID 83702",
+        "description": "A cultural hub featuring contemporary exhibitions, local art, and educational programs.",
+        "image": "images/artmuseum.jpg"
+    },
+    {
+        "name": "Julia Davis Park",
+        "address": "700 S Capitol Blvd, Boise, ID 83702",
+        "description": "A central city park with gardens, playgrounds, and several museums within walking distance.",
+        "image": "images/juliadavis.jpg"
+    },
+    {
+        "name": "Bogus Basin Recreation Area",
+        "address": "2600 N Bogus Basin Rd, Boise, ID 83702",
+        "description": "Year-round outdoor fun with skiing, snowboarding, mountain biking, and scenic views.",
+        "image": "images/bogusbasin.jpg"
+    },
+    {
+        "name": "Boise Zoo",
+        "address": "355 Julia Davis Dr, Boise, ID 83702",
+        "description": "Family-friendly zoo featuring animals from around the world and conservation exhibits.",
+        "image": "images/boisezoo.jpg"
+    },
+    {
+        "name": "Freak Alley",
+        "address": "210 N 9th St, Boise, ID 83702",
+        "description": "Outdoor mural gallery showcasing colorful street art by local and international artists.",
+        "image": "images/freakalley.jpg"
+    }
+]

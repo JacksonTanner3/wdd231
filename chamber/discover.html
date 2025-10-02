@@ -5,24 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jackson Tanner">
-    <meta name="description" content="Chamber directory page assignment.">
+    <meta name="description" content="Chamber of commerce Discover page assignment.">
     <meta property="og:title" content="Boise City's Chamber of Commerce">
-    <meta property="og:description" content="Boise City's Chamber of Commerce directory page to show you some of the members.">
+    <meta property="og:description"
+        content="Boise City's Chamber of Commerce Discover page to show you all about the things in Boise.">
     <meta property="og:image" content="https://jacksontanner3.github.io/wdd231/images/boise-hero.jpg">
-    <meta property="og:url" content="https://jacksontanner3.github.io/wdd231/chamber/directory.html">
-    <title>Chamber of Commerce Directory Page | Jackson Tanner</title>
+    <meta property="og:url" content="https://jacksontanner3.github.io/wdd231/chamber/index.html">
+    <title>Chamber of Commerce Discover Page | Jackson Tanner </title>
     <link rel="stylesheet" href="styles/main.css">
     <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/main.js" type="module"></script>
 </head>
 
 <body>
     <header>
         <h1>Boise City's Chamber of Commerce</h1>
     </header>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -31,15 +33,21 @@
             <li><a href="discover.html">Discover</a></li>
         </ul>
     </nav>
-    <div id="view-toggle">
-        <button id="mode-button">Switch to List View</button>
-    </div>
-    <main id="cards-container"></main>
+    <main>
+        <section class="discover-grid" id="discover-cards">
+
+        </section>
+        <aside class="visit-message" id="visitMessage">
+
+        </aside>
+    </main>
+
     <footer>
-        <p>Jackson Tanner | WDD231</p>
-        <p>&copy; <span id="currentyear"></span></p>
-        <p id="lastmodified"></p>
+        <p>&copy; <span id="currentyear"></span> Boise City's Chamber of Commerce | Jackson Tanner | Last Updated: <span
+                id="lastmodified"></span></p>
     </footer>
+
+    <script src="scripts/discover.js" type="module"></script>
 </body>
 
 </html>
