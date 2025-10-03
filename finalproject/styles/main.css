@@ -1,0 +1,96 @@
+:root {
+    --primary-color: #1f2937;
+    --secondary-color: #222d3b;
+    --accent-color: #10b951;
+    --text-color: #ffffff;
+    --hover-color: #059618;
+    --link-color: #ffffff;
+    --link-hover-color: #078317;
+
+    --heading-font: "Bebas Neue", sans-serif;
+    --body-font: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--heading-font);
+    color: var(--accent-color);
+}
+
+
+.header {
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 1rem 0;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-decoration: none;
+}
+
+.nav {
+    display: none;
+}
+
+.nav-link {
+    color: var(--link-color);
+    text-decoration: none;
+    transition: color 0.3s;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color: var(--link-hover-color);
+}
+
+.main-nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+
+.mobile-nav {
+    display: none;
+    background-color: var(--secondary-color);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+
+.footer {
+    background-color: var(--secondary-color);
+    color: #9ca3af;
+    padding: 1.5rem 0;
+    margin-top: 3rem;
+}
+
+.footer-content {
+    text-align: center;
+}
